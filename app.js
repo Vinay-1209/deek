@@ -5,6 +5,8 @@ const app = express()
 const {sequelize,Customer,cart} = require('./models')
 app.use(express.json())
 
+//bvdjsbcsjfdk
+
 app.post('/customer',async (req,res)=>{
     const {name,email,bill} = req.body
     try{
